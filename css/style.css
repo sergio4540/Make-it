@@ -1,0 +1,43 @@
+.before{
+	background-color: #000000;
+	z-index: -1;	
+
+}
+body{
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+	z-index: 1;
+}
+
+.id{
+  align-content: center;
+  position:fixed;
+  height:150px;
+  width:150px;
+  top: 35%;
+  left : 45%;
+  z-index: 1;
+  border-radius:150px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;  
+}
+
+p{
+	font-family: 'Allan', cursive;
+	text-align: center;
+	color: white;
+	position: fixed;
+	margin: auto;
+	top: 60%;
+	left: 45%;
+	font-size: 40px;
+}
+
+.city{
+	top: 75%;
+	left: 46%;
+	font-size: 25px;
+}
